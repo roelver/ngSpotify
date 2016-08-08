@@ -1,7 +1,7 @@
 {
-  "name": "angular2-quickstart",
+  "name": "ng2Spotify",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "A simple app using the Spotify API",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "docker-build": "docker build -t ng2-quickstart .",
@@ -19,7 +19,7 @@
     "webdriver:update": "webdriver-manager update"
   },
   "keywords": [],
-  "author": "",
+  "author": "Roel Verbunt",
   "license": "ISC",
   "dependencies": {
     "@angular/common":  "2.0.0-rc.4",
